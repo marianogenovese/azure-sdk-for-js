@@ -9,7 +9,6 @@ dependencies:
   '@rush-temp/cosmos': 'file:projects/cosmos.tgz'
   '@rush-temp/event-hubs': 'file:projects/event-hubs.tgz'
   '@rush-temp/event-processor-host': 'file:projects/event-processor-host.tgz'
-  '@rush-temp/keyvault': 'file:projects/keyvault.tgz'
   '@rush-temp/keyvault-keys': 'file:projects/keyvault-keys.tgz'
   '@rush-temp/service-bus': 'file:projects/service-bus.tgz'
   '@rush-temp/storage-blob': 'file:projects/storage-blob.tgz'
@@ -116,7 +115,7 @@ dependencies:
   stream-http: 2.8.3
   ts-node: 7.0.1
   tslib: 1.9.3
-  tslint: 5.16.0
+  tslint: 5.17.0
   tslint-config-prettier: 1.18.0
   tunnel: 0.0.5
   typescript: 3.5.1
@@ -7169,29 +7168,6 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-xPw9PgNPLG3iKRxmK7DWr+Ea/SzrvfHtjFt5LBl61gk2UBG/DB9kCXRjv+xyIU1rUtnayLeMUVJBcMX8Z17nDg==
-  /tslint/5.16.0:
-    dependencies:
-      '@babel/code-frame': 7.0.0
-      builtin-modules: 1.1.1
-      chalk: 2.4.2
-      commander: 2.20.0
-      diff: 3.5.0
-      glob: 7.1.4
-      js-yaml: 3.13.1
-      minimatch: 3.0.4
-      mkdirp: 0.5.1
-      resolve: 1.11.0
-      semver: 5.7.0
-      tslib: 1.9.3
-      tsutils: 2.29.0
-    dev: false
-    engines:
-      node: '>=4.8.0'
-    hasBin: true
-    peerDependencies:
-      typescript: '>=2.1.0 || >=2.1.0-dev || >=2.2.0-dev || >=2.3.0-dev || >=2.4.0-dev || >=2.5.0-dev || >=2.6.0-dev || >=2.7.0-dev || >=2.8.0-dev || >=2.9.0-dev || >=3.0.0-dev || >= 3.1.0-dev || >= 3.2.0-dev'
-    resolution:
-      integrity: sha512-UxG2yNxJ5pgGwmMzPMYh/CCnCnh0HfPgtlVRDs1ykZklufFBL1ZoTlWFRz2NQjcoEiDoRp+JyT0lhBbbH/obyA==
   /tslint/5.16.0_typescript@3.4.5:
     dependencies:
       '@babel/code-frame': 7.0.0
@@ -7215,7 +7191,30 @@ packages:
       typescript: '>=2.1.0 || >=2.1.0-dev || >=2.2.0-dev || >=2.3.0-dev || >=2.4.0-dev || >=2.5.0-dev || >=2.6.0-dev || >=2.7.0-dev || >=2.8.0-dev || >=2.9.0-dev || >=3.0.0-dev || >= 3.1.0-dev || >= 3.2.0-dev'
     resolution:
       integrity: sha512-UxG2yNxJ5pgGwmMzPMYh/CCnCnh0HfPgtlVRDs1ykZklufFBL1ZoTlWFRz2NQjcoEiDoRp+JyT0lhBbbH/obyA==
-  /tslint/5.16.0_typescript@3.5.1:
+  /tslint/5.17.0:
+    dependencies:
+      '@babel/code-frame': 7.0.0
+      builtin-modules: 1.1.1
+      chalk: 2.4.2
+      commander: 2.20.0
+      diff: 3.5.0
+      glob: 7.1.4
+      js-yaml: 3.13.1
+      minimatch: 3.0.4
+      mkdirp: 0.5.1
+      resolve: 1.11.0
+      semver: 5.7.0
+      tslib: 1.9.3
+      tsutils: 2.29.0
+    dev: false
+    engines:
+      node: '>=4.8.0'
+    hasBin: true
+    peerDependencies:
+      typescript: '>=2.1.0 || >=2.1.0-dev || >=2.2.0-dev || >=2.3.0-dev || >=2.4.0-dev || >=2.5.0-dev || >=2.6.0-dev || >=2.7.0-dev || >=2.8.0-dev || >=2.9.0-dev || >=3.0.0-dev || >= 3.1.0-dev || >= 3.2.0-dev'
+    resolution:
+      integrity: sha512-pflx87WfVoYepTet3xLfDOLDm9Jqi61UXIKePOuca0qoAZyrGWonDG9VTbji58Fy+8gciUn8Bt7y69+KEVjc/w==
+  /tslint/5.17.0_typescript@3.5.1:
     dependencies:
       '@babel/code-frame': 7.0.0
       builtin-modules: 1.1.1
@@ -7238,7 +7237,7 @@ packages:
     peerDependencies:
       typescript: '>=2.1.0 || >=2.1.0-dev || >=2.2.0-dev || >=2.3.0-dev || >=2.4.0-dev || >=2.5.0-dev || >=2.6.0-dev || >=2.7.0-dev || >=2.8.0-dev || >=2.9.0-dev || >=3.0.0-dev || >= 3.1.0-dev || >= 3.2.0-dev'
     resolution:
-      integrity: sha512-UxG2yNxJ5pgGwmMzPMYh/CCnCnh0HfPgtlVRDs1ykZklufFBL1ZoTlWFRz2NQjcoEiDoRp+JyT0lhBbbH/obyA==
+      integrity: sha512-pflx87WfVoYepTet3xLfDOLDm9Jqi61UXIKePOuca0qoAZyrGWonDG9VTbji58Fy+8gciUn8Bt7y69+KEVjc/w==
   /tsutils/2.29.0:
     dependencies:
       tslib: 1.9.3
@@ -8059,7 +8058,7 @@ packages:
       stream-browserify: 2.0.2
       ts-node: 7.0.1
       tslib: 1.9.3
-      tslint: 5.16.0_typescript@3.5.1
+      tslint: 5.17.0_typescript@3.5.1
       typescript: 3.5.1
       url: 0.11.0
       util: 0.11.1
@@ -8094,7 +8093,7 @@ packages:
       stream-http: 2.8.3
       ts-node: 7.0.1
       tslib: 1.9.3
-      tslint: 5.16.0_typescript@3.5.1
+      tslint: 5.17.0_typescript@3.5.1
       tslint-config-prettier: 1.18.0
       tunnel: 0.0.5
       typescript: 3.5.1
@@ -8150,7 +8149,7 @@ packages:
       rollup-plugin-uglify: 6.0.2_rollup@1.12.5
       ts-node: 7.0.1
       tslib: 1.9.3
-      tslint: 5.16.0_typescript@3.5.1
+      tslint: 5.17.0_typescript@3.5.1
       typescript: 3.5.1
       uuid: 3.3.2
       ws: 6.2.1
@@ -8199,7 +8198,7 @@ packages:
       rollup-plugin-uglify: 6.0.2_rollup@1.12.5
       ts-node: 7.0.1
       tslib: 1.9.3
-      tslint: 5.16.0_typescript@3.5.1
+      tslint: 5.17.0_typescript@3.5.1
       typescript: 3.5.1
       uuid: 3.3.2
     dev: false
@@ -8228,26 +8227,6 @@ packages:
     resolution:
       integrity: sha512-QetJY0hcM268iCfJfPKhdWyC0PsMShLrsNYX9CAHJPG6Yp7WloPWiOSEHhOV5AZ3G4KMHddYc+uJPaaVmWGJbg==
       tarball: 'file:projects/keyvault-keys.tgz'
-    version: 0.0.0
-  'file:projects/keyvault.tgz':
-    dependencies:
-      '@azure/ms-rest-azure-js': 1.3.5
-      '@azure/ms-rest-js': 1.8.7
-      '@azure/ms-rest-nodeauth': 0.9.3
-      '@types/chai': 4.1.7
-      chai: 4.2.0
-      prettier: 1.17.1
-      rimraf: 2.6.3
-      rollup: 1.12.5
-      rollup-plugin-node-resolve: 4.2.4
-      tslib: 1.9.3
-      typescript: 3.5.1
-      uglify-js: 3.6.0
-    dev: false
-    name: '@rush-temp/keyvault'
-    resolution:
-      integrity: sha512-sS3vQdZ13M9kBLuS1u0ta2vbvrNTnrOWnubyk1jdvkLTC1ezvHaoOku/thZLFIxmGrQHiiTgg+PKSrtfgY/oDQ==
-      tarball: 'file:projects/keyvault.tgz'
     version: 0.0.0
   'file:projects/service-bus.tgz':
     dependencies:
@@ -8562,7 +8541,6 @@ specifiers:
   '@rush-temp/cosmos': 'file:./projects/cosmos.tgz'
   '@rush-temp/event-hubs': 'file:./projects/event-hubs.tgz'
   '@rush-temp/event-processor-host': 'file:./projects/event-processor-host.tgz'
-  '@rush-temp/keyvault': 'file:./projects/keyvault.tgz'
   '@rush-temp/keyvault-keys': 'file:./projects/keyvault-keys.tgz'
   '@rush-temp/service-bus': 'file:./projects/service-bus.tgz'
   '@rush-temp/storage-blob': 'file:./projects/storage-blob.tgz'
